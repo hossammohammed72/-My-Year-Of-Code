@@ -6,7 +6,6 @@ return base ;
 if(exponent%2 ==0 ){
 return power(base,exponent/2)*power(base,exponent/2);}
 else {
-
 return power(base,exponent/2)*power(base,exponent/2)*base;
 }
 }
