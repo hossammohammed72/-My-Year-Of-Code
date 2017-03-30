@@ -6,20 +6,22 @@ The original repository started by mohammed Rashad
 </a></h3>
 <table>
 <th>
-<tr> Day</tr>
-<tr> contribution</tr>
-<tr> language</tr>
+<tr>
+<td> Day</td>
+<td> contribution</td>
+<td> language</td>
+</tr>
 </th>
-<td>
-<tr>1</tr>
-<tr> Recursive Power</tr>
-<tr>c++</tr>
-</td>
-<td>
-<tr>2</tr>
-<tr>First 100 primes</tr>
-<tr>php</tr>
-</td>
+<tr>
+<td>1</td>
+<td> Recursive Power</td>
+<td>c++</td>
+</tr>
+<tr>
+<td>2</td>
+<td>First 100 primes</td>
+<td>php</td>
+</tr>
 </table>
 </body>
 </html>
