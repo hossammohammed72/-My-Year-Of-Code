@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>function dostuff(){
+if(document.forms["form"]["name"].value==""){
+console.log("first condition");
+document.getElementById("warning").innerHTML="must enter your name first "; 
+return false ;
+}else if(document.forms["form"]["age"].value < 18){
+document.getElementById("warning").innerHTML="you should at least be 18  "; 
+return false ; 
+}else if(document.forms["form"]["idCard"].value.length < 14){
+document.getElementById("warning").innerHTML="you idcard numbers should be 14";
+return false ; 	
+}else{
+document.getElementById("warning").innerHTML="things alright";
+return true ; 
+}
+} </script>
+<form method="post"name="form" onsubmit="return dostuff();">
+<input type="text"name ="name"placeholder ="name">
+<input type="number"name ="age" placeholder="your age">
+<input type="number"name ="idCard" placeholder="idcard">
+<input type="submit" value="validate" >
+</form>
+<h3 id ="warning"></h3>
+</body>
+</html> 
+
