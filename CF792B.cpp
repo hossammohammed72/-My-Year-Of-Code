@@ -22,3 +22,4 @@ for(int i=0;i<k;i++)
 cout << o[i] << " ";
 return 0 ; 
 }
+
