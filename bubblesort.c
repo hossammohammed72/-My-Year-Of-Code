@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Day 6 binary search 
+//Day 6 bubble sort 
 void  sort(int *arr,int n){
 	for(int i= n-1;i>0;i--){
 		for(int j=0;j<i;j++)
